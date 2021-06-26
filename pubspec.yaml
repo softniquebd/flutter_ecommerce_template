@@ -1,5 +1,5 @@
 name: ecommerce_int2
-description: It is about a complete ecommerce app for Android and iOS. 
+description: It is about a complete ecommerce app for Android and iOS.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -14,7 +14,7 @@ description: It is about a complete ecommerce app for Android and iOS.
 version: 1.0.1
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
+  sdk: '>=2.2.2 <3.0.0'
 
 dependencies:
   flutter:
@@ -35,32 +35,29 @@ dependencies:
   flare_splash_screen: 3.0.1
   flutter_svg: 0.18.0
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: 0.8.1
 
 flutter_icons:
-  android: "launcher_icon"
+  android: 'launcher_icon'
   ios: true
-  image_path: "assets/icons/shopeLogo.png"
-
+  image_path: 'assets/icons/appIcon.jpg'
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   assets:
-  - assets/
-  - assets/icons/
+    - assets/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
@@ -74,10 +71,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-  - family: Montserrat
-    fonts:
-    - asset: fonts/Montserrat-Regular.ttf
-  - family: NunitoSans
-    fonts:
-    - asset: fonts/NunitoSans-Regular.ttf
-
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+    - family: NunitoSans
+      fonts:
+        - asset: fonts/NunitoSans-Regular.ttf
